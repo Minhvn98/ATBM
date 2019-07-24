@@ -1,2 +1,2 @@
 # ATBM
-Code hỗ trợ tốt nhất với chữ in HOA.
+Code hỗ trợ tốt nhất với đầu vao là chữ in HOA.
