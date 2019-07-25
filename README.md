@@ -1,2 +1,3 @@
 # ATBM
-Code hỗ trợ tốt nhất với đầu vào là chữ in HOA.
+SỬ DỤNG CHỮ CÁI THƯỜNG CÓ THỂ KO ĐÚNG TRONG MỘT SÔ BÀI.
+Thân ái !
