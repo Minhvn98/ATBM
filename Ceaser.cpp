@@ -45,15 +45,15 @@ int main(){
 	cout << "Chuoi sau khi ma hoa : " << s << endl;
 
 	//giai ma
-//	s = giaiMa(s);
-//	cout <<"Chuoi sau khi giai ma : " << s;
+	s = giaiMa(s, k);
+	cout <<"Chuoi sau khi giai ma : " << s;
 
 	
 	//Be khoa Brute-force
-	for(int k = 0; k <=25; k++){
-		cout << "Khoa K : " << k <<endl;		
-		cout << "Chuoi giai ma bang Brute-force : " << giaiMa(s, k) <<endl <<endl;
-
-	}	
-	
+//	for(int k = 0; k <=25; k++){
+//		cout << "Khoa K : " << k <<endl;		
+//		cout << "Chuoi giai ma bang Brute-force : " << giaiMa(s, k) <<endl <<endl;
+//
+//	}	
+//	
 }
