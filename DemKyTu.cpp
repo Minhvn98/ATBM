@@ -10,22 +10,6 @@ int dem(string s, char c){
 	return dem;
 }
 main(){
-//	string s,s1 = "";
-//	cout<<"Nhap chuoi s : ";
-//	getline(cin, s);
-//	for(int i = 0; i < s.length(); i++){
-//		for(int j = 0; j < s.length(); j++){
-//			if(s[j] != s[i])
-//				s1 += s[i];
-//		}
-//	}
-//	cout << "S1 : " << s1 <<endl;
-	
-	
-//	for(int i = 0; i < s.length(); i++){
-//		cout<< "Ki tu '" << s[i] << "' xuat hien : " << dem(s, s[i]) <<" lan \n";
-//	}
-
 	string s;
 	int dem  = 0;
 	cout <<"Nhap chuoi s : ";
