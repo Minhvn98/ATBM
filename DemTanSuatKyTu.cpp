@@ -19,12 +19,13 @@ main(){
 	}
 	
 	//dem tan suat cac ky tu trong chuoi
-	for(int i = 0; i < s1.length(); i++)
+	for(int i = 0; i < s1.length(); i++){
 		for(int j = 0; j < s.length(); j++){
 			if(s1[i] == s[j])
 				dem ++;
 		}
-		cout <<"Ky tu ' "<<s1[i] <<"' xuat hien : " << dem << "lan" <<endl;
+		cout <<"Ky tu ' "<<s1[i] <<"' xuat hien : " << dem << " lan" <<endl;
 		dem = 0;
+	}
 	
 }

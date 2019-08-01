@@ -11,7 +11,7 @@ main(){
 	for(int i = 0; i < s.size(); i++){
 		s[i] = s[i] ^ K[j];
 		j++;
-		if(j == s.size()) j == 0;
+		if(j ==K.size()) j == 0;
 	}
 	
 	cout << "Chuoi ma hoa : " << s << endl;
@@ -21,7 +21,7 @@ main(){
 	for(int i = 0; i < s.size(); i++){
 		s[i] = s[i] ^ K[j];
 		j++;
-		if(j == s.size()) j == 0;
+		if(j == K.size()) j == 0;
 	}
 	
 	cout << "Chuoi giai hoa : " << s;

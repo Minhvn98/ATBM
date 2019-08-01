@@ -16,7 +16,7 @@ main() {
 	s1 = s;
 	
 	//be khoa Affine su dung BruteForce
-	for(int j = 0; j < 12; j++){
+	for(int j = 0; j < 12; j++)
 	
 		for(b = 0; b < 26; b++){
 			a = A[j];
@@ -32,5 +32,5 @@ main() {
 			}
 		cout << "a : " << a << "\t b : " << b << "\t Chuoi giai ma : " << s1 << endl;	
 		}	
-	}	
+		
 }

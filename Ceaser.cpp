@@ -1,8 +1,7 @@
+// Ceaser Cipher
 #include<iostream>
-
 using namespace std;
 
-int  x, y;
 
 int kitu_so(char c){
 	return c - 'A';	
@@ -14,10 +13,11 @@ char so_kitu(int n){
 
 //Ma hoa
 string maHoa(string s, int k){
+	int  C, P;
 	for(int i = 0; i <= s.length(); i++){		
-		x = kitu_so(s[i]);		
-		y = (x + k) % 26;
-		s[i] = so_kitu(y);
+		P = kitu_so(s[i]);		
+		C = (P + k) % 26;
+		s[i] = so_kitu(C);
 	}
 	return s;
 }
@@ -25,17 +25,17 @@ string maHoa(string s, int k){
 
 	//giai ma 
 string giaiMa(string s, int k){
-
+	int  C, P;
 	for(int i = 0; i <= s.length(); i++){
-		x = kitu_so(s[i]);
-		y = (x - k + 26) % 26;
-		s[i] = so_kitu(y);	
+		C = kitu_so(s[i]);
+		P = (C - k + 26) % 26;
+		s[i] = so_kitu(P);	
 	}
 	return s;
 }
 		
 int main(){
-	string s, s1;
+	string s;
 	int k;
 	cout << "Nhap chuoi : "; getline(cin, s);
 	cout << "Nhap khoa K : "; cin >> k;	

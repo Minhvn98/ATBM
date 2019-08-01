@@ -10,7 +10,7 @@ main(){
 	for(int i = 0; i < s.size(); i++)
 		s[i] = s[i] ^ K;
 		
-	cout << "Chuoi ma hoa : " << s;
+	cout << "Chuoi ma hoa : " << s <<endl;
 	
 	//Giai ma 
 	for(int i = 0; i < s.size(); i++)
