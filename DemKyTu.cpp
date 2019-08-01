@@ -1,14 +1,6 @@
 #include<iostream>
 using namespace std;
 
-int dem(string s, char c){
-	int dem = 0;
-	for(int i = 0; i < s.length(); i++){
-		if(c == s[i])
-			dem ++;
-	}
-	return dem;
-}
 main(){
 	string s;
 	int dem  = 0;
