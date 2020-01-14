@@ -1,3 +1,3 @@
 # ATBM
-SỬ DỤNG CHỮ CÁI THƯỜNG CÓ THỂ KO ĐÚNG TRONG MỘT SỐ BÀI.
+Code này chỉ đúng khi đầu vào là chữ IN HOA.
 
